@@ -1,0 +1,26 @@
+<form [formGroup]="newCoffeeForm" (ngSubmit)="onSubmit()">
+    <label for="name">Name:</label>
+    <input type="text" id="name" formControlName="name" />
+  
+    <label for="tagline">Tagline:</label>
+    <input type="text" id="tagline" formControlName="tagline" />
+  
+    <label for="description">Description:</label>
+    <input type="text" id="description" formControlName="description" />
+  
+    <label for="first_roasted">First Roasted:</label>
+    <input type="text" id="first_roasted" formControlName="first_roasted" />
+  
+    <label for="roaster_tips">Roaster Tips:</label>
+    <input type="text" id="roaster_tips" formControlName="roaster_tips" />
+  
+    <label for="strength_level">Strength Level:</label>
+    <input type="number" id="strength_level" formControlName="strength_level" />
+  
+    <label for="contributed_by">Contributed By:</label>
+    <input type="text" id="contributed_by" formControlName="contributed_by" />
+  
+    <button type="submit">Create Coffee</button>
+  </form>
+  
+<router-outlet></router-outlet>

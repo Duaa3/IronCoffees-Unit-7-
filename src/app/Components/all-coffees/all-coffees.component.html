@@ -1,0 +1,11 @@
+<div *ngFor="let coffee of coffees">
+    <div class="coffee-item">
+      <img [src]="coffee.image_url" alt="{{ coffee.name }} Image" />
+      <h3>{{ coffee.name }}</h3>
+      <p>{{ coffee.tagline }}</p>
+      <p>Contributed by: {{ coffee.contributed_by }}</p>
+      <a [routerLink]="['/coffees', coffee._id]">Details</a>
+    </div>
+  </div>
+  
+<router-outlet></router-outlet>

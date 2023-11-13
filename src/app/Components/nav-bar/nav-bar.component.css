@@ -1,0 +1,76 @@
+.navBar {
+    display: flex;
+    font-weight: lighter;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    position: fixed;
+    background-color: rgb(184, 180, 209);
+    padding: 10px;
+  }
+  
+  mat-tab-group {
+    display: flex;
+    color: white;
+  }
+  
+  mat-tab {
+    background-color: #afc0cb;
+    margin-right: 10px;
+    padding: 10px;
+    text-align: center; 
+  }
+  
+  mat-tab a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  mat-tab-group mat-ink-bar {
+    background-color: #ecf0f1;
+  }
+  
+  nav {
+    display: flex; 
+  }
+  
+  nav ul {
+    list-style: none; 
+    margin: 0;
+    padding: 0; 
+  }
+  
+  nav li {
+    display: inline-block; 
+    margin-right: 100px; 
+  }
+  
+  nav a {
+    text-decoration: none; 
+    color: rgb(14, 13, 13);
+    padding: 10px; 
+    border: 1px solid #fff; 
+  }
+  
+  nav a:hover {
+    background-color: #bacedb; 
+  }
+  
+  nav {
+    text-align: center;
+    justify-content: flex-start; 
+  
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav a {
+    display: inline-block;
+    margin: 0 10px;
+    margin-left: 120px;
+    text-decoration: none;
+  }

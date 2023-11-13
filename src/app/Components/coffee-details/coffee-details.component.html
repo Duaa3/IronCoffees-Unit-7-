@@ -1,0 +1,8 @@
+<div *ngIf="coffee">
+    <div class="coffee-details">
+      <img [src]="coffee.image_url" alt="{{ coffee.name }} Image" />
+      <h3>{{ coffee.name }}</h3>
+      <p>{{ coffee.tagline }}</p>
+    </div>
+  </div>
+  <router-outlet></router-outlet>

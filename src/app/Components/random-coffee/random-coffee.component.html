@@ -1,0 +1,14 @@
+<!-- random-coffee.component.html -->
+<div *ngIf="randomCoffee">
+    <div class="coffee-item">
+      <img [src]="randomCoffee.image_url" alt="{{ randomCoffee.name }} Image" />
+      <h3>{{ randomCoffee.name }}</h3>
+      <p>{{ randomCoffee.tagline }}</p>
+      <p>First Roasted: {{ randomCoffee.first_roasted }}</p>
+      <p>Strength Level: {{ randomCoffee.strength_level }}</p>
+      <p>{{ randomCoffee.description }}</p>
+      <p>Contributed by: {{ randomCoffee.contributed_by }}</p>
+    </div>
+  </div>
+  
+<router-outlet></router-outlet>
